@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.card_dark_opacity {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgb(7 7 7 / 0%)),
+    to(rgb(0 0 0 / 95%))
+  );
+}
+
+/* slick */
+.slick-prev {
+  left: -10px;
+  z-index: 1;
+}
+.slick-next {
+  right: 40px;
+  /* position: absolute; */
+}
+/**** Worked for Image present on outside server *****/
+.slick-prev:before {
+  background-color: red !important;
+  padding: 5px;
+  border-radius: 12px;
+  content: "Prev" !important;
+  position: absolute;
+  top: -11px;
+  left: -15px;
+  font-size: 15px;
+}
+
+.slick-next:before {
+  background-color: red !important;
+  /* width: 20px; */
+  padding: 5px;
+  border-radius: 12px;
+  content: "Next" !important;
+  position: absolute;
+  top: -11px;
+  left: -25px;
+  font-size: 15px;
+}
