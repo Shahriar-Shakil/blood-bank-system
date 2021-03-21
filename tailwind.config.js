@@ -18,6 +18,9 @@ module.exports = {
       },
       backgroundColor: ["active"],
     },
+    backgroundImage: (theme) => ({
+      profile: "url('/static/images/profile.jpg')",
+    }),
   },
   variants: {
     extend: {},

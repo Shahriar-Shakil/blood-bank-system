@@ -38,7 +38,7 @@ export default function Sidebar() {
                 </ActiveLink>
               </li>
               <li className="my-2  block ">
-                <ActiveLink href="/">
+                <ActiveLink href="/accounts/profile">
                   <a className="font-normal flex px-4 py-3 hover:text-primary hover:bg-light border-transparent border-r-8  transition duration-300">
                     <FaUserAlt size={24} className="mr-3 t" />{" "}
                     <span>Profile</span>

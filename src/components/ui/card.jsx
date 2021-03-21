@@ -1,9 +1,7 @@
 import React from "react";
 
-export default function Card({ children, classNames }) {
+export default function Card({ children, className }) {
   return (
-    <div className={`bg-white p-3 rounded-lg shadow- ${classNames}`}>
-      {children}
-    </div>
+    <div className={`bg-white p-3  rounded-2xl ${className}`}>{children}</div>
   );
 }

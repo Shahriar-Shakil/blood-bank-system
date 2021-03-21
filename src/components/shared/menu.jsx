@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Badge } from "antd";
 
-export default function HomeMenu({ title, data }) {
+export default function IconMenu({ title, data }) {
   const menuList = data?.map((item) => {
     return (
       <li className="flex flex-col text-center px-4">

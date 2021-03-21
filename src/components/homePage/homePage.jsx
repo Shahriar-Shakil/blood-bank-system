@@ -7,8 +7,8 @@ import BloodDonationCampaignCard from "../shared/blood-donation-campaign-card";
 import HeaderUserAction from "../shared/header-user-action";
 import Card from "../ui/card";
 import DonationCampaign from "./donation-campaigns";
-import HomeMenu from "./menu";
 import dynamic from "next/dynamic";
+import IconMenu from "../shared/menu";
 
 export default function HomePage() {
   const Map = dynamic(
@@ -42,9 +42,9 @@ export default function HomePage() {
           </div>
 
           <div className="">
-            <HomeMenu title="Menu" data={homeMenuData} />
+            <IconMenu title="Menu" data={homeMenuData} />
             <br />
-            <HomeMenu
+            <IconMenu
               title="Request"
               data={requestMenuData}
               listClass="justify-start"
