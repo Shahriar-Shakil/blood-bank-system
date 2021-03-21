@@ -8,6 +8,7 @@ import {
   FaUserAlt,
 } from "react-icons/fa";
 import Link from "next/link";
+import ActiveLink from "../components/elements/active-link";
 export default function Sidebar() {
   return (
     <div className="w-72 ">
@@ -29,44 +30,44 @@ export default function Sidebar() {
           </div>
           <div className="pt-10">
             <ul className="list-none">
-              <li className="my-2 group block border-transparent border-r-8  hover:border-primary hover:bg-light transition duration-300">
-                <Link href="/">
-                  <a className="font-normal flex px-4 py-3 group-hover:text-primary ransition duration-300">
+              <li className="my-2  block ">
+                <ActiveLink href="/home" activeClassName="active-sidebar">
+                  <a className="font-normal flex px-4 py-3 hover:text-primary hover:bg-light border-transparent border-r-8  transition duration-300">
                     <FaHome size={24} className="mr-3 t" /> <span>Home</span>
                   </a>
-                </Link>
+                </ActiveLink>
               </li>
-              <li className="my-2 group block border-transparent border-r-8  hover:border-primary hover:bg-light transition duration-300">
-                <Link href="/">
-                  <a className="font-normal flex px-4 py-3 group-hover:text-primary ransition duration-300">
+              <li className="my-2  block ">
+                <ActiveLink href="/">
+                  <a className="font-normal flex px-4 py-3 hover:text-primary hover:bg-light border-transparent border-r-8  transition duration-300">
                     <FaUserAlt size={24} className="mr-3 t" />{" "}
                     <span>Profile</span>
                   </a>
-                </Link>
+                </ActiveLink>
               </li>
-              <li className="my-2 group block border-transparent border-r-8  hover:border-primary hover:bg-light transition duration-300">
-                <Link href="/">
-                  <a className="font-normal flex px-4 py-3 group-hover:text-primary ransition duration-300">
+              <li className="my-2  block ">
+                <ActiveLink href="/">
+                  <a className="font-normal flex px-4 py-3 hover:text-primary hover:bg-light border-transparent border-r-8  transition duration-300">
                     <FaRegBell size={24} className="mr-3 t" />{" "}
                     <span>Notifications</span>
                   </a>
-                </Link>
+                </ActiveLink>
               </li>
-              <li className="my-2 group block border-transparent border-r-8  hover:border-primary hover:bg-light transition duration-300">
-                <Link href="/">
-                  <a className="font-normal flex px-4 py-3 group-hover:text-primary ransition duration-300">
+              <li className="my-2  block ">
+                <ActiveLink href="/">
+                  <a className="font-normal flex px-4 py-3 hover:text-primary hover:bg-light border-transparent border-r-8  transition duration-300">
                     <FaRegNewspaper size={24} className="mr-3 t" />{" "}
                     <span>Donors</span>
                   </a>
-                </Link>
+                </ActiveLink>
               </li>
-              <li className="my-2 group block border-transparent border-r-8  hover:border-primary hover:bg-light transition duration-300">
-                <Link href="/">
-                  <a className="font-normal flex px-4 py-3 group-hover:text-primary ransition duration-300">
+              <li className="my-2  block ">
+                <ActiveLink href="/">
+                  <a className="font-normal flex px-4 py-3 hover:text-primary hover:bg-light border-transparent border-r-8  transition duration-300">
                     <FaRegSun size={24} className="mr-3 t" />{" "}
                     <span>Customize</span>
                   </a>
-                </Link>
+                </ActiveLink>
               </li>
             </ul>
           </div>

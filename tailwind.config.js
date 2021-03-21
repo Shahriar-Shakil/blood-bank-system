@@ -1,4 +1,5 @@
 module.exports = {
+  important: true,
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -15,6 +16,7 @@ module.exports = {
       spacing: {
         "card-campaign": "400px",
       },
+      backgroundColor: ["active"],
     },
   },
   variants: {

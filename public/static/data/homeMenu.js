@@ -8,6 +8,7 @@ export const homeMenuData = [
     title: "Donation",
     images: "/static/images/blood-donation.png",
     url: "/",
+    notification: 2,
   },
   {
     title: "Donar",

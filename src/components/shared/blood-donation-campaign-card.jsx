@@ -4,7 +4,7 @@ import { BsDropletFill } from "react-icons/bs";
 export default function BloodDonationCampaignCard() {
   return (
     <div className="">
-      <div className="relative 	max-w-sm">
+      <div className="relative 	max-w-sm ">
         <div className="  flex p-5 bg-white rounded-large ">
           <div className="w-1/2  text-center">
             <p className="py-3">

@@ -24,7 +24,7 @@ body {
   z-index: 1;
 }
 .slick-next {
-  right: 40px;
+  right: 25px;
   /* position: absolute; */
 }
 /**** Worked for Image present on outside server *****/
@@ -49,4 +49,13 @@ body {
   top: -11px;
   left: -25px;
   font-size: 15px;
+}
+
+/*  */
+
+.active-sidebar {
+  --tw-border-opacity: 1;
+  color: rgba(224, 0, 9, 1) !important;
+  background-color: rgba(236, 239, 245, var(--tw-bg-opacity)) !important;
+  border-right: 8px solid rgba(224, 0, 9, 1) !important;
 }
