@@ -51,11 +51,21 @@ body {
   font-size: 15px;
 }
 
-/*  */
+/* active sidebar nav */
 
 .active-sidebar {
   --tw-border-opacity: 1;
   color: rgba(224, 0, 9, 1) !important;
-  background-color: rgba(236, 239, 245, var(--tw-bg-opacity)) !important;
+  background-color: #eceff5 !important;
   border-right: 8px solid rgba(224, 0, 9, 1) !important;
+}
+
+/* antd tabs custom */
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: rgba(224, 0, 9, 1) !important;
+  font-weight: bold;
+}
+.ant-tabs-ink-bar {
+  background: rgba(224, 0, 9, 1) !important;
 }

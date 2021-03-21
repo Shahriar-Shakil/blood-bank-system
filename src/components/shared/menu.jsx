@@ -3,12 +3,15 @@ import Link from "next/link";
 import { Badge } from "antd";
 
 export default function IconMenu({ title, data }) {
-  const menuList = data?.map((item) => {
+  const menuList = data?.map((item, i) => {
     return (
-      <li className="flex flex-col text-center px-4">
+      <li
+        className="flex flex-col justify-center items-center text-center px-4"
+        key={i}
+      >
         <Link href={item.url}>
           <a className="flex justify-center items-center  rounded-full w-16 h-16 border-4 border-white">
-            <Badge count={item.notification}>
+            <Badge count={item?.notification}>
               <img
                 src={item.images}
                 alt=""

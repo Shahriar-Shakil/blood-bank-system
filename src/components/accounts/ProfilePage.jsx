@@ -1,12 +1,13 @@
 import React from "react";
 import ContentWrapper from "~/src/layout/Content-wrapper";
 
-import dynamic from "next/dynamic";
 import HeaderUserAction from "../shared/header-user-action";
-import { BsArrowLeft } from "react-icons/bs";
 import { FaArrowLeft } from "react-icons/fa";
-import Card from "../ui/card";
 import UserInfo from "../shared/UserInfo";
+import Card from "../ui/card";
+import UserHistory from "./module/user-history";
+import IconMenu from "../shared/menu";
+import { badgesData } from "~/public/static/data/badges";
 
 export default function ProfilePage() {
   return (
@@ -26,12 +27,23 @@ export default function ProfilePage() {
         </div>
       </div>
       <ContentWrapper>
-        <div className="pt-20 my-5  grid grid-cols-5 gap-8">
-          <div className="col-span-2">
+        <div className="pt-20 my-5  grid grid-cols-5 gap-5">
+          <div className="col-span-2 ">
             <UserInfo />
           </div>
+          <div className="col-span-3 ">
+            <Card className="shadow-md">
+              <UserHistory />
+            </Card>
+            <br />
+            <Card className="shadow-md p-2">
+              <div className="px-8">
+                <h1 className="text-2xl font-bold">Badges</h1>
 
-          <div className="col-span-3"></div>
+                <IconMenu data={badgesData} />
+              </div>
+            </Card>
+          </div>
         </div>
       </ContentWrapper>
     </div>

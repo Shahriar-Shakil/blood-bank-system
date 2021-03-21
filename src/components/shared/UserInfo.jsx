@@ -7,7 +7,7 @@ import { Progress } from "antd";
 
 export default function UserInfo() {
   return (
-    <Card className=" shadow-md">
+    <Card className=" shadow-md h-full">
       <div className="p-2">
         <div className="   bg-red-200 	 bg-cover	bg-no-repeat bg-center	">
           <div className="relative">
@@ -35,13 +35,18 @@ export default function UserInfo() {
             </p>
           </div>
           <div className="my-5">
-            <h1 className="text-xl font-bold">
+            <h1 className="text-xl font-bold my-3">
               Badge <FaLayerGroup className="text-primary inline ml-2" />
             </h1>
             <IconMenu data={requestMenuData} />
           </div>
-          <div className="my-3 border border-black opacity-10"></div>
-          <Progress percent={70} showInfo={false} strokeColor="red" />
+          <div className="my-8 border border-gray "></div>
+          <Progress
+            percent={70}
+            showInfo={false}
+            strokeColor="red"
+            trailColor="#9d9d9d"
+          />
           <p className="">
             <span className="text-primary ">3 </span>{" "}
             <span className="pl-1 opacity-60">
