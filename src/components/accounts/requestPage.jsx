@@ -63,7 +63,7 @@ export default function RequestPage() {
             </div>
             <div className="">
               <h1 className="font-extrabold text-2xl">Recent Request</h1>
-              <div className="grid gap-8 grid-cols-2 mx-5">
+              <div className="grid gap-5 grid-cols-2 mx-5">
                 <div>
                   <UrgentRequestCard />
                 </div>{" "}

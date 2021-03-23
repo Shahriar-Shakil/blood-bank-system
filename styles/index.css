@@ -73,3 +73,9 @@ body {
 select {
   -webkit-appearance: none;
 }
+.ant-input {
+  background-color: #eceff5 !important;
+}
+.ant-form-item-label label {
+  opacity: 0.6;
+}
