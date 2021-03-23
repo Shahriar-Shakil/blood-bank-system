@@ -14,10 +14,11 @@ export default function SigninForm() {
             placeholder="example@domain.com"
           />
         </Form.Item>
-        <Form.Item label="Password" name="username">
+        <Form.Item label="Password" name="password">
           <Input.Password
             type="email"
             className="bg-light border-none shadow-lg  rounded-2xl h-12"
+            placeholder="*******"
           />
         </Form.Item>
         <Button
