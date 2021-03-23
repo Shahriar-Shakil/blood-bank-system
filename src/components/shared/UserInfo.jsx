@@ -7,7 +7,7 @@ import { Progress } from "antd";
 
 export default function UserInfo() {
   return (
-    <Card className=" shadow-md h-full">
+    <Card className=" shadow-md h-full rounded-2xl">
       <div className="p-2">
         <div className="   bg-red-200 	 bg-cover	bg-no-repeat bg-center	">
           <div className="relative">

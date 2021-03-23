@@ -32,11 +32,11 @@ export default function ProfilePage() {
             <UserInfo />
           </div>
           <div className="col-span-3 ">
-            <Card className="shadow-md">
+            <Card className="shadow-md rounded-2xl">
               <UserHistory />
             </Card>
             <br />
-            <Card className="shadow-md p-2">
+            <Card className="shadow-md p-2 rounded-2xl">
               <div className="px-8">
                 <h1 className="text-2xl font-bold">Badges</h1>
 

@@ -31,7 +31,7 @@ export default function Sidebar() {
           <div className="pt-10">
             <ul className="list-none">
               <li className="my-2  block ">
-                <ActiveLink href="/home" activeClassName="active-sidebar">
+                <ActiveLink href="/" activeClassName="active-sidebar">
                   <a className="font-normal flex px-4 py-3 hover:text-primary hover:bg-light border-transparent border-r-8  transition duration-300">
                     <FaHome size={24} className="mr-3 t" /> <span>Home</span>
                   </a>
@@ -49,7 +49,10 @@ export default function Sidebar() {
                 </ActiveLink>
               </li>
               <li className="my-2  block ">
-                <ActiveLink href="/" activeClassName="active-sidebar">
+                <ActiveLink
+                  href="/accounts/notifications"
+                  activeClassName="active-sidebar"
+                >
                   <a className="font-normal flex px-4 py-3 hover:text-primary hover:bg-light border-transparent border-r-8  transition duration-300">
                     <FaRegBell size={24} className="mr-3 t" />{" "}
                     <span>Notifications</span>
@@ -57,7 +60,7 @@ export default function Sidebar() {
                 </ActiveLink>
               </li>
               <li className="my-2  block ">
-                <ActiveLink href="/" activeClassName="active-sidebar">
+                <ActiveLink href="" activeClassName="active-sidebar">
                   <a className="font-normal flex px-4 py-3 hover:text-primary hover:bg-light border-transparent border-r-8  transition duration-300">
                     <FaRegNewspaper size={24} className="mr-3 t" />{" "}
                     <span>Donors</span>
@@ -65,7 +68,7 @@ export default function Sidebar() {
                 </ActiveLink>
               </li>
               <li className="my-2  block ">
-                <ActiveLink href="/" activeClassName="active-sidebar">
+                <ActiveLink href="" activeClassName="active-sidebar">
                   <a className="font-normal flex px-4 py-3 hover:text-primary hover:bg-light border-transparent border-r-8  transition duration-300">
                     <FaRegSun size={24} className="mr-3 t" />{" "}
                     <span>Customize</span>

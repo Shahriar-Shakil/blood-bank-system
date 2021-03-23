@@ -1,7 +1,5 @@
 import React from "react";
 
 export default function Card({ children, className }) {
-  return (
-    <div className={`bg-white p-3  rounded-2xl ${className}`}>{children}</div>
-  );
+  return <div className={`bg-white p-3   ${className}`}>{children}</div>;
 }

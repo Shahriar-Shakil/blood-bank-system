@@ -1,3 +1,4 @@
+import Router from "next/router";
 import React from "react";
 import { Scrollbar } from "../../ui/scrollbar";
 
@@ -8,7 +9,11 @@ export default function DonationHistory() {
   }
   const tableData = arr?.map((item) => {
     return (
-      <tr className="hover:bg-light" key={item}>
+      <tr
+        className="hover:bg-light cursor-pointer"
+        key={item}
+        onClick={() => Router.push(`/accounts/profile/${item}`)}
+      >
         <td className="text-center">
           <div className="py-3">
             <p>Dec</p>
