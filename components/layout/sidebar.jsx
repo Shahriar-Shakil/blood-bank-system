@@ -8,7 +8,7 @@ import {
   FaUserAlt,
 } from "react-icons/fa";
 import Link from "next/link";
-import ActiveLink from "../components/elements/active-link";
+import ActiveLink from "@components/elements/active-link";
 export default function Sidebar() {
   return (
     <div className="w-72 ">

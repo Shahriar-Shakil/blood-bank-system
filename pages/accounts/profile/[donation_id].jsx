@@ -1,5 +1,5 @@
-import DonationsPage from "../../../src/components/accounts/donations";
-import Layout from "../../../src/layout/main";
+import DonationsPage from "@components/accounts/donations";
+import Layout from "@components/layout/main";
 
 export default function PageDonation() {
   return (

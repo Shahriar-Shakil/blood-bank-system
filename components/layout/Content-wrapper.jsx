@@ -1,5 +1,5 @@
 import React from "react";
-import { Scrollbar } from "../components/ui/scrollbar";
+import { Scrollbar } from "@components/ui/scrollbar";
 export default function ContentWrapper({ children, className }) {
   return (
     <Scrollbar>

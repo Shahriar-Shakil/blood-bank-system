@@ -3,7 +3,7 @@ import { FaLayerGroup, FaShare } from "react-icons/fa";
 import Card from "../ui/card";
 import IconMenu from "./menu";
 import { Progress } from "antd";
-import { requestMenuData } from "../../../public/static/data/requestMenu";
+import { requestMenuData } from "@public/static/data/requestMenu";
 
 export default function UserInfo() {
   return (

@@ -3,9 +3,9 @@ import { BsFillDropletFill, BsThreeDotsVertical } from "react-icons/bs";
 import { FaArrowLeft, FaLink, FaReply, FaThumbsUp } from "react-icons/fa";
 
 import { GoLocation, GoCalendar } from "react-icons/go";
-import ContentWrapper from "../../layout/Content-wrapper";
-import HeaderUserAction from "../shared/header-user-action";
-import Card from "../ui/card";
+import ContentWrapper from "@components/layout/Content-wrapper";
+import HeaderUserAction from "@components/shared/header-user-action";
+import Card from "@components/ui/card";
 
 function DonationsPage() {
   return (

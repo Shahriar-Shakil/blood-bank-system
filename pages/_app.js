@@ -1,6 +1,6 @@
-import "../styles/globals.css";
-import "../styles/index.css";
-import "../styles/elements/switch-btn.css";
+import "../css/global.css";
+import "../css/index.css";
+import "../css/elements/switch-btn.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

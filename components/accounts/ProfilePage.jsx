@@ -6,8 +6,8 @@ import UserInfo from "../shared/UserInfo";
 import Card from "../ui/card";
 import UserHistory from "./module/user-history";
 import IconMenu from "../shared/menu";
-import { badgesData } from "../../../public/static/data/badges";
-import ContentWrapper from "../../layout/Content-wrapper";
+import { badgesData } from "@public/static/data/badges";
+import ContentWrapper from "@components/layout/Content-wrapper";
 
 export default function ProfilePage() {
   return (

@@ -1,5 +1,5 @@
-import RequestPage from "../../src/components/accounts/requestPage";
-import Layout from "../../src/layout/main";
+import RequestPage from "@components/accounts/requestPage";
+import Layout from "@components/layout/main";
 
 export default function Page() {
   return (

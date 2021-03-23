@@ -1,7 +1,7 @@
 import React from "react";
 import { BsDropletHalf } from "react-icons/bs";
 import { Form, Input, Button, Checkbox, Row, Col, Select } from "antd";
-import SignUpForm from "../../src/components/accounts/module/signup-form";
+import SignUpForm from "@components/accounts/module/signup-form";
 
 export default function LoginPage() {
   return (

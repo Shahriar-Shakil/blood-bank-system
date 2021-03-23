@@ -1,6 +1,6 @@
 import React from "react";
-import { homeMenuData } from "../../../public/static/data/homeMenu";
-import { requestMenuData } from "../../../public/static/data/requestMenu";
+import { homeMenuData } from "@public/static/data/homeMenu";
+import { requestMenuData } from "@public/static/data/requestMenu.js";
 import ActivityChart from "../elements/activity-chart";
 import BloodDonationCampaignCard from "../shared/blood-donation-campaign-card";
 import HeaderUserAction from "../shared/header-user-action";
@@ -8,7 +8,7 @@ import Card from "../ui/card";
 import DonationCampaign from "./donation-campaigns";
 import dynamic from "next/dynamic";
 import IconMenu from "../shared/menu";
-import ContentWrapper from "../../layout/Content-wrapper";
+import ContentWrapper from "@components/layout/Content-wrapper";
 
 export default function HomePage() {
   const Map = dynamic(

@@ -1,5 +1,5 @@
-import ProfilePage from "../../src/components/accounts/ProfilePage";
-import Layout from "../../src/layout/main";
+import ProfilePage from "@components/accounts/ProfilePage";
+import Layout from "@components/layout/main";
 
 export default function Page() {
   return (

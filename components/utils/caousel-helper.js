@@ -1,5 +1,5 @@
-import NextArrow from "../components/elements/carousel/NextArrow";
-import PrevArrow from "../components/elements/carousel/PrevArrow";
+import NextArrow from "@components/elements/carousel/NextArrow";
+import PrevArrow from "@components/elements/carousel/PrevArrow";
 
 export const carouselFullwidth = {
   dots: false,
