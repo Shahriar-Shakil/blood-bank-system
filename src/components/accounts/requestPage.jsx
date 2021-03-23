@@ -1,18 +1,15 @@
 import React from "react";
-import ContentWrapper from "~/src/layout/Content-wrapper";
 
 import HeaderUserAction from "../shared/header-user-action";
 import { FaArrowLeft } from "react-icons/fa";
-import UserInfo from "../shared/UserInfo";
-import Card from "../ui/card";
-import UserHistory from "./module/user-history";
+
 import IconMenu from "../shared/menu";
-import { badgesData } from "~/public/static/data/badges";
-import { requestMenuData } from "~/public/static/data/requestMenu";
 import UrgentRequestCard from "../shared/urgentRequest";
 import RequestPublishForm from "../shared/request-publish-form";
 import MyRequestCard from "../shared/my-request-card";
-import { recentHistoryData } from "~/public/static/data/recent-history-data";
+import ContentWrapper from "../../layout/Content-wrapper";
+import { requestMenuData } from "../../../public/static/data/requestMenu";
+import { recentHistoryData } from "../../../public/static/data/recent-history-data";
 
 export default function RequestPage() {
   return (

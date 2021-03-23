@@ -1,7 +1,7 @@
 import React from "react";
 import { BsDropletHalf } from "react-icons/bs";
 import { Form, Input, Button, Checkbox, Row, Col, Select } from "antd";
-import SigninForm from "../../src/components/accounts/module/signin-form";
+import SignUpForm from "../../src/components/accounts/module/signup-form";
 
 export default function LoginPage() {
   return (
@@ -13,10 +13,14 @@ export default function LoginPage() {
             <h1 className="text-3xl font-ex font-extrabold ">
               <span className="text-primary">Blood</span> Donation
             </h1>
+            <p className="pt-10 text-2xl w-1/3 text-center opacity-60">
+              Provide Your real name for your identity. Your name will be used
+              for search
+            </p>
           </div>
         </div>
         <div className="w-2/5">
-          <SigninForm />
+          <SignUpForm />
         </div>
       </div>
     </div>

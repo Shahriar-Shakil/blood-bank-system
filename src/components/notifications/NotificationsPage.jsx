@@ -1,9 +1,7 @@
 import React from "react";
-import ContentWrapper from "~/src/layout/Content-wrapper";
 
 import HeaderUserAction from "../shared/header-user-action";
 import { FaArrowLeft } from "react-icons/fa";
-import Card from "../ui/card";
 import NotificationsCard from "./module/NotificationCard";
 
 export default function NotificationsPage() {

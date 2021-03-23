@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "../../ui/card";
-import { ImTextColor } from "react-icons/im";
 import Link from "next/link";
 export default function NotificationsCard() {
   return (

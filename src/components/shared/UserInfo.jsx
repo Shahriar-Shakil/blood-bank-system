@@ -1,9 +1,9 @@
 import React from "react";
 import { FaLayerGroup, FaShare } from "react-icons/fa";
-import { requestMenuData } from "~/public/static/data/requestMenu";
 import Card from "../ui/card";
 import IconMenu from "./menu";
 import { Progress } from "antd";
+import { requestMenuData } from "../../../public/static/data/requestMenu";
 
 export default function UserInfo() {
   return (

@@ -1,5 +1,4 @@
 import React from "react";
-import ContentWrapper from "~/src/layout/Content-wrapper";
 import { homeMenuData } from "../../../public/static/data/homeMenu";
 import { requestMenuData } from "../../../public/static/data/requestMenu";
 import ActivityChart from "../elements/activity-chart";
@@ -9,6 +8,7 @@ import Card from "../ui/card";
 import DonationCampaign from "./donation-campaigns";
 import dynamic from "next/dynamic";
 import IconMenu from "../shared/menu";
+import ContentWrapper from "../../layout/Content-wrapper";
 
 export default function HomePage() {
   const Map = dynamic(
