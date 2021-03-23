@@ -9,6 +9,7 @@ module.exports = {
         success: "#00da62",
         gray: "#f6f7f9",
         light: "#eceff5",
+        purple: "#5b00dd",
       },
       borderRadius: {
         large: "1.5rem",

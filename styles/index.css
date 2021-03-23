@@ -69,3 +69,7 @@ body {
 .ant-tabs-ink-bar {
   background: rgba(224, 0, 9, 1) !important;
 }
+
+select {
+  -webkit-appearance: none;
+}

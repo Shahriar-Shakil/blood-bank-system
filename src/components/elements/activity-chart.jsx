@@ -27,7 +27,7 @@ export default function ActivityChart() {
   });
   return (
     <Card>
-      <h1 className="">Activity</h1>
+      <h1 className="">Statistics</h1>
       <Chart
         id="chart"
         options={state.options}
